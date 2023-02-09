@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: quay.io/scoheb/user-workload@sha256:40b1ebf7bde849e7986315bdac3a1c928cc0ed4d95a7096af30f01bc6d158a12
+      - image: quay.io/scoheb/user-workload@sha256:c48cd05f3d1d0f55d91520c03575a6dededb677fcac9bab56ea92afdcabdd656
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
